@@ -1,22 +1,26 @@
 body{
     background: #ccd2dbd2;
     font-family: Verdana;
-    max-width: 900px;
+    max-width: 1000px;
     margin: auto;
+    border: 1px solid black;
 }
 
 .photo {
     border-radius: 50%;
     border: 1px solid #50505050;
-    text-align: right;
 }
 
 #title, #subtitle, #post_title{
     color: #1d1c1cfb;
 }
 
+#subtitle{
+    font-size: 22px;
+}
+
 #title{
-    font-size: 30px;
+    font-size: 25px;
     text-transform: uppercase;
 }
 
@@ -25,6 +29,24 @@ body{
     font-style: italic;
     margin: 0;
     margin-bottom 15px;
+}
+
+.cabeçalho {
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    background-color: #d7dadfd2;
+    border-bottom: grey solid 1px;
+}
+
+.subtitulo{
+    padding-bottom: 15px;
+}
+
+.body .descricao{
+    text-align: center;
 }
 
 .post {
