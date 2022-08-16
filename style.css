@@ -1,72 +1,171 @@
 body{
-    background: #ccd2dbd2;
-    font-family: Verdana;
-    max-width: 1000px;
+    background: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
     margin: auto;
-    border: 1px solid black;
+    color: #122A57;
 }
 
-.photo {
+.foto {
     border-radius: 50%;
-    border: 1px solid #50505050;
+    margin: 25px;
+    width: 220px;
 }
 
-#title, #subtitle, #post_title{
-    color: #1d1c1cfb;
-}
-
-#subtitle{
-    font-size: 22px;
-}
-
-#title{
-    font-size: 25px;
-    text-transform: uppercase;
-}
-
-#post_title {
-    font-size: 16px;
-    font-style: italic;
-    margin: 0;
-    margin-bottom 15px;
-}
-
-.cabeçalho {
-    flex-direction: row;
-    justify-content: space-around;
+.header {
+    background-color: #122A57;
+    color: lightgrey;
     display: flex;
     align-items: center;
-    padding: 25px;
-    background-color: #d7dadfd2;
-    border-bottom: grey solid 1px;
+    justify-content: space-between;
+    font-weight: bold;
 }
 
-.subtitulo{
-    padding-bottom: 15px;
+.header ul li a{
+    text-decoration: none;
+    color: lightgrey;
 }
 
-.body .descricao{
-    text-align: center;
+.header header{
+    display: flex;
+    margin-left: 60px;
 }
 
-.post {
-    background: #ccd2db00;
-    padding: 15px;
-    margin-bottom: 15px;
+.header ul{
+    flex-direction: row;
+    display: flex;
 }
 
-.post_content {
-    margin: 0;
-    margin-bottom: 15px;
-    text-transform: none;
+.header ul li{
+    justify-content: space-between;
+    display: flex;
+    margin: 25px;
+}
+
+.quem-sou-eu {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    text-align: justify;
+    padding: 60px;
+    font-size: 18px;
+}
+
+.text-quem-sou-eu {
+    max-width: 720px;
+    justify-content: end;
+}
+
+.icon-student{
+    max-width: 200px;
+    width: 100%;
+}
+
+.formacao-academica{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 60px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #122A57;
+    color: lightgrey;
+    font-size: 20px;
     text-align: justify;
 }
 
-.list {
-    list-style-type: none;
-    padding-left: 15px;
+.formacao-academica h2{
+    text-align: center;
+    margin-bottom: 50px;
 }
 
-.list li a {
-    color: blue;
+.formacao-academica ul li{
+    margin-top: 15px;
+}
+
+.text-formacao-academica{
+    max-width: 720px;
+}
+
+.icon-experiencia{
+    width: 200px;
+}
+
+.experiencia{
+    padding: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: justify;
+    font-size: 18px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.experiencia h2{
+    text-align: center;
+}
+
+.text-experiencia{
+    max-width: 720px;
+}
+
+.experiencia ul li{
+    margin-top: 15px;
+}
+
+.cursos {
+    background-color: #122A57;
+    color: lightgrey;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.cursos-items{
+    display: flex;
+    padding-right: 80px;
+    padding-left: 80px;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+.cursos header{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cursos ul li{
+    margin-bottom: 10px;
+}
+
+.cursos .curso-concluido{
+    text-align: justify;
+    padding: 20px;
+    max-width: 250px;
+}
+
+.cursos .curso-em-andamento{
+    text-align: justify;
+    padding: 20px;
+    max-width: 250px;
+}
+
+.cursos .idiomas{
+    text-align: justify;
+    padding: 20px;
+    max-width: 250px;
+}
+
+.footer{
+    justify-content: space-around;
+    display: flex;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #122A57;
 }
