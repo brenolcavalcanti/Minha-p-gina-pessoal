@@ -138,19 +138,7 @@ body{
     margin-bottom: 10px;
 }
 
-.cursos .curso-concluido{
-    text-align: justify;
-    padding: 20px;
-    max-width: 250px;
-}
-
-.cursos .curso-em-andamento{
-    text-align: justify;
-    padding: 20px;
-    max-width: 250px;
-}
-
-.cursos .idiomas{
+.cursos .cursos-item{
     text-align: justify;
     padding: 20px;
     max-width: 250px;
@@ -168,4 +156,46 @@ body{
 .footer a{
     text-decoration: none;
     color: #122A57;
+}
+
+/* mobile */
+
+@media(max-width: 992px){
+    .header{
+        flex-direction: column;
+    }
+
+    .header ul li{
+        margin: 10px;
+    }
+
+    .cursos {
+        flex-direction: column;
+    }
+
+    .quem-sou-eu{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cursos-items{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cursos-item{
+        border: lightgrey 1px solid;
+        margin-bottom: 15px;
+        width: 720px;
+    }
+
+    .formacao-academica{
+        flex-direction: column;
+    }
+
+    .experiencia{
+        flex-direction: column;
+    }
+
+
 }
